@@ -1,5 +1,5 @@
 
-:- bundle(scasp).
+:- bundle(sCASP).
 
 depends([
     core,
