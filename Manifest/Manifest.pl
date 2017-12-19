@@ -2,8 +2,7 @@
 :- bundle(sCASP).
 
 depends([
-    core,
-    lpdoc
+    core
 ]).
 
 alias_paths([
@@ -11,7 +10,6 @@ alias_paths([
 ]).
 
 lib('src').
-lib('src/scasp').
 
 manual('scasp', [main='doc/SETTINGS.pl']).
 
