@@ -11,5 +11,7 @@ alias_paths([
 
 lib('src').
 
+cmd('src/scasp').
+
 manual('scasp', [main='doc/SETTINGS.pl']).
 
